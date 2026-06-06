@@ -59,12 +59,12 @@ function render() {
 
     const title = document.createElement("p");
     title.className = "task-title";
-    title.textContent = task.title;
+    title.textContent = `${task.completed ? "✅" : "⚡"} ${task.title}`;
 
     const remove = document.createElement("button");
     remove.className = "delete";
     remove.type = "button";
-    remove.textContent = "Delete";
+    remove.textContent = "🗑️";
     remove.addEventListener("click", () => deleteTask(task.id));
 
     row.append(check, title, remove);

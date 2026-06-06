@@ -10,40 +10,40 @@
     <main class="app-shell">
       <section class="hero">
         <div>
-          <p class="eyebrow">Task Flow Lite</p>
-          <h1>Personal task manager</h1>
-          <p class="subtitle">Add tasks, complete them, and keep your list saved locally.</p>
+          <p class="eyebrow">⚡ Task Flow Lite</p>
+          <h1>Plan fast. Finish strong.</h1>
+          <p class="subtitle">Add tasks, complete them, and keep your list saved locally. Built for quick daily focus. ✅</p>
         </div>
         <div class="scoreboard">
           <div>
             <strong id="activeCount">0</strong>
-            <span>Active</span>
+            <span>🔥 Active</span>
           </div>
           <div>
             <strong id="doneCount">0</strong>
-            <span>Done</span>
+            <span>✅ Done</span>
           </div>
         </div>
       </section>
 
       <form id="taskForm" class="task-form">
-        <input id="taskInput" type="text" placeholder="Add a task for today" autocomplete="off" />
-        <button type="submit">Add Task</button>
+        <input id="taskInput" type="text" placeholder="✍️ Add a task for today" autocomplete="off" />
+        <button type="submit">⚡ Add</button>
       </form>
 
       <section class="toolbar">
         <div class="filters" aria-label="Task filters">
-          <button class="filter active" type="button" data-filter="all">All</button>
-          <button class="filter" type="button" data-filter="active">Active</button>
-          <button class="filter" type="button" data-filter="completed">Completed</button>
+          <button class="filter active" type="button" data-filter="all">📋 All</button>
+          <button class="filter" type="button" data-filter="active">🔥 Active</button>
+          <button class="filter" type="button" data-filter="completed">✅ Done</button>
         </div>
-        <button id="clearDone" class="ghost" type="button">Clear Done</button>
+        <button id="clearDone" class="ghost" type="button">🧹 Clear Done</button>
       </section>
 
       <section id="taskList" class="task-list" aria-live="polite"></section>
-      <p id="emptyState" class="empty">No tasks yet. Add your first task above.</p>
+      <p id="emptyState" class="empty">🚀 No tasks yet. Add your first task above.</p>
     </main>
 
-    <script src="./script.js?v=2"></script>
+    <script src="./script.js?v=3"></script>
   </body>
 </html>
